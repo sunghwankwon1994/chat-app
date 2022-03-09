@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>chatting</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+  </head>
+  <body>
+    <div id="hello"></div>
+    <div class="container">
+      <div class="inner">
+        <div id="chat">
+          <!--message area -->
+        </div>
+      </div>
+      <div id="bye"></div>
+      <div class="bottom">
+        <input type="text" id="inputBox" placeholder="Enter the text.." />
+        <button id="sendBtn" disabled onclick="send()">send</button>
+      </div>
+    </div>
+  </body>
+</html>

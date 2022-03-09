@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 72vh;
+  margin: auto;
+  background-color: lightblue;
+  text-align: center;
+  position: relative;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.connect {
+  background-color: lightblue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  text-align: center;
+  padding: 5px;
+}
+.bottom {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 20vh;
+  background-color: #fff;
+  bottom: 0;
+}
+#chat {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#sendBtn,
+#inputBox {
+  position: absolute;
+
+  right: 0;
+  border: 0;
+}
+#sendBtn {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 5%;
+  height: 20%;
+}
+#inputBox {
+  left: 0;
+  width: 94%;
+  height: 20%;
+  margin-right: 3px;
+}
+#inputBox:focus {
+  outline: none;
+}
+.me {
+  background-color: rgb(116, 206, 116);
+  width: 40%;
+  white-space: normal;
+  word-break: break-all;
+  margin: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  text-align: right;
+  padding-right: 15px;
+  font-weight: 500;
+  margin-left: 57%;
+}
+
+.other {
+  position: relative;
+  background-color: #fff;
+  white-space: normal;
+  word-break: break-all;
+  width: 50%;
+  margin: 5px;
+  margin-left: 0;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: 500;
+  margin-left: 45%;
+  margin: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
